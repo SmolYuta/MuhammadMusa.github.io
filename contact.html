@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musa | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Musa<span>Portfolio</span></a>
+
+      <nav>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="journey.html">Journey & Struggles</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container fade-up">
+      <p class="section-kicker">GET IN TOUCH</p>
+      <h2>Contact Me</h2>
+      <p>You can use this page to reach me and learn more about my work.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container contact-layout">
+      <div class="content-box fade-up">
+        <h3>My Contact Details</h3>
+        <p><strong>Email:</strong> im.musa2009@gmail.com</p>
+        <p><strong>Phone:</strong> +60 11-3719 0558</p>
+        <p><strong>Location:</strong> Islamabad, Pakistan</p>
+        <p class="contact-extra">
+          Thank you for visiting my portfolio. I am always happy to share my journey, skills, and creative work.
+        </p>
+      </div>
+
+      <div class="content-box fade-up delay-1">
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Musa | Portfolio Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
